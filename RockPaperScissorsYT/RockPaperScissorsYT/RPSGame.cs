@@ -1,4 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+
 namespace RockPaperScissorsYT
 {
     class RPSGame
@@ -48,7 +57,40 @@ namespace RockPaperScissorsYT
                 Screen();
                 UserSelection = Convert.ToChar(Console.ReadLine());
                 getUserHand();
+                ComputerHand = (Hand)rand.Next(1, 4);
+                Console.Clear();
+                Console.WriteLine("Computer's Hand: {0}", ComputerHand);
+                Console.WriteLine("Player's Hand: {0}", PlayerHand);
+
+                if (DetermineWinner() == Outcome.Win)
+                    Console.WriteLine("{0} beats {1}. Player Wins", PlayerHand, ComputerHand);
+                else if (DetermineWinner() == Outcome.Lose)
+                    Console.WriteLine("{0} bears {1}. Computer Wins", ComputerHand, PlayerHand);
+                else
+                    Console.WriteLine("It is a tie");
+
+                Console.WriteLine("\nWould you like to play another game(y or n)");
+                response = Convert.ToChar(Console.ReadLine());
+
+                while (ValidateResponse(response) == false)
+                {
+                    Console.WriteLine("Invalid Input. Please re-enter your selection");
+                    response = Convert.ToChar(Console.ReadLine());
+                }
+
+                if (response == 'N' || response == 'n')
+                    gameOver = true;
+
+                Console.Clear();
             }
+        }
+
+        public bool ValidateResponse(char response){
+
+            if (Char.ToUpper(response) != 'Y' && Char.ToUpper(response) != 'N')
+                return false;
+
+            return true;
         }
 
         public Outcome DetermineWinner(){

@@ -1,0 +1,11 @@
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/obj/Debug/netcoreapp2.0/RockPaperScissorsYT.csprojResolveAssemblyReference.cache
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/obj/Debug/netcoreapp2.0/RockPaperScissorsYT.csproj.CoreCompileInputs.cache
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/obj/Debug/netcoreapp2.0/RockPaperScissorsYT.AssemblyInfoInputs.cache
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/obj/Debug/netcoreapp2.0/RockPaperScissorsYT.AssemblyInfo.cs
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/bin/Debug/netcoreapp2.0/RockPaperScissorsYT.deps.json
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/bin/Debug/netcoreapp2.0/RockPaperScissorsYT.runtimeconfig.json
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/bin/Debug/netcoreapp2.0/RockPaperScissorsYT.runtimeconfig.dev.json
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/bin/Debug/netcoreapp2.0/RockPaperScissorsYT.dll
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/bin/Debug/netcoreapp2.0/RockPaperScissorsYT.pdb
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/obj/Debug/netcoreapp2.0/RockPaperScissorsYT.dll
+/Users/joseguerrero/Projects/C#_Games/RockPaperScissorsYT/RockPaperScissorsYT/obj/Debug/netcoreapp2.0/RockPaperScissorsYT.pdb
